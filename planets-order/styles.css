@@ -1,0 +1,82 @@
+body {
+  background-color: rgba(0, 0, 0, 0.9);
+  color: #ffffff;
+}
+
+/*------ Custom NavBar ------*/
+i {
+  margin-right: 10px;
+}
+
+.navbar-custom {
+  background-color: rgba(0, 0, 0, 0.9) !important;
+  color: #ffffff !important;
+}
+
+li {
+  margin-bottom: 1rem;
+}
+
+a {
+  color: #ffffff !important;
+  margin: 0 1rem;
+  text-decoration: none !important;
+}
+
+li a:hover {
+  border-bottom: solid 2px #ff00b0;
+  padding: 0.3rem;
+  transition: 0.7s;
+}
+
+.navbar-collapse {
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -ms-flex-align: center;
+  align-items: center;
+  transition: 0.7s;
+}
+
+/*------ Custom Button ------*/
+button:focus {
+  outline: 1px dotted;
+  outline: 1px solid #ff00b0 !important;
+}
+
+.botones {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  border-radius: 0 !important;
+}
+.btn {
+  border-radius: 0 !important;
+  font-size: 1.3rem;
+}
+
+.bloque {
+  display: flex;
+  flex-direction: row;
+}
+.preguntas {
+  background-color: #00ffff;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem auto;
+  width: 50%;
+  padding: 2rem 0;
+  color: #000;
+}
+
+.respuestas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #000;
+  width: 50%;
+  margin: 1rem auto;
+  padding: 2rem;
+  color: #ffffff;
+}
