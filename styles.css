@@ -1,0 +1,53 @@
+/*------ reset ------*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*------ BG color ------*/
+body {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+/*------ Custom NavBar ------*/
+i {
+  margin-right: 10px;
+}
+
+.navbar-custom {
+  background-color: rgba(0, 0, 0, 0.9) !important;
+  color: #ffffff !important;
+}
+
+li {
+  margin-bottom: 1rem;
+}
+
+a {
+  color: #ffffff !important;
+  margin: 0 1rem;
+  text-decoration: none !important;
+}
+
+li a:hover {
+  border-bottom: solid 2px #ff00b0;
+  padding: 0.3rem;
+  transition: 0.7s;
+}
+
+.navbar-collapse {
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -ms-flex-align: center;
+  align-items: center;
+  transition: 0.7s;
+}
+
+/*------ Custom Button ------*/
+button:focus {
+  outline: 1px dotted;
+  outline: 1px solid #ff00b0 !important;
+}
