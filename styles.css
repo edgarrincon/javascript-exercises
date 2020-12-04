@@ -1,13 +1,7 @@
-/*------ reset ------*/
-
-* {
-  margin: 0;
-  padding: 0;
-}
-
 /*------ BG color ------*/
 body {
   background-color: rgba(0, 0, 0, 0.9);
+  color: #000;
 }
 
 /*------ Custom NavBar ------*/
@@ -45,9 +39,33 @@ li a:hover {
   align-items: center;
   transition: 0.7s;
 }
+#everything {
+  background-color: #ffffff;
+  padding-top: 55px;
+  font-family: revert;
+  font-weight: 300;
+}
 
-/*------ Custom Button ------*/
-button:focus {
-  outline: 1px dotted;
-  outline: 1px solid #ff00b0 !important;
+.flex-boxes {
+  height: 280px;
+  width: 240px;
+  border: 1px solid black;
+  margin: 20px auto 20px auto;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+
+.flex-headings {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #535152 !important;
+  border-radius: 5px;
+  color: #ffffff;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
