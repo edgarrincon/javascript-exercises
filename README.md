@@ -1,2 +1,2 @@
 # javascript-exercises-beginner
-javascript exercises remember "pratice make the teacher"
+Js "practice makes the teacher"
