@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="src/ES.png" sizes="16x16" type="image/png" />
+    <link rel="icon" href="src/favicon.png" sizes="16x16" type="image/png" />
 
     <!-- CSS only -->
     <link
@@ -12,9 +12,14 @@
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chivo:wght@300&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
 
-    <title>JS exercises-beginner</title>
+    <title>How Many</title>
   </head>
 
   <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
@@ -29,23 +34,37 @@
     >
       <span class="navbar-toggler-icon"></span>
     </button>
-    <a class="navbar-brand navbar-logo" href="https://bitstandard.github.io/"
-      ><img src="src/BitStandard.png" width="200" height="40" alt=""
+    <a class="navbar-brand" href="https://edgarrincon.com/"
+      ><img src="src/edgar.jpg" alt="edgar logo"
     /></a>
 
     <div class="collapse navbar-collapse from-top" id="navbarTogglerDemo03">
-      <ul class="navbar-nav ml-auto mt-1 mb-2">
-        <li class="nav-item active">
-          <a
-            class="nav-link-custom"
-            href="https://bitstandard.github.io/javascript-exercises/"
-            >Home JS exercises</a
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item m-1 p-1">
+          <a href="https://bitstandard.github.io/javascript-exercises/">Home</a>
+        </li>
+        <li class="nav-item m-1 p-1">
+          <a href="https://bitstandard.github.io/javascript-exercises/"
+            >How Many</a
           >
         </li>
-        <li class="nav-item">
-          <a class="nav-link-custom" href="https://github.com/bitstandard/"
-            >GitHub</a
+        <li class="nav-item m-1 p-1">
+          <a href="https://bitstandard.github.io/javascript-exercises/"
+            >Planet Order</a
           >
+        </li>
+        <li class="nav-item m-1 p-1">
+          <a href="https://bitstandard.github.io/javascript-exercises/"
+            >Predict Number</a
+          >
+        </li>
+        <li class="nav-item m-1 p-1">
+          <a href="https://bitstandard.github.io/javascript-exercises/"
+            >Ramdon Text</a
+          >
+        </li>
+        <li class="nav-item m-1 p-1">
+          <a href="https://github.com/bitstandard/">GitHub</a>
         </li>
       </ul>
     </div>
@@ -54,38 +73,109 @@
     <div class="container-fluid">
       <div class="container">
         <div class="flex-container">
-          <div class="flex-boxes">
-            <img
-              class="img-thumbnail"
-              src="src/MarquesaNegro.png"
-              alt="Thumbnail image"
-            />
-
-            <button type="button" class="btn btn-block btn-outline-primary">
-              Ir a sitio
-            </button>
-          </div>
-          <div class="flex-boxes">
-            <img
-              class="img-thumbnail"
-              src="src/MarquesaNegro.png"
-              alt="Thumbnail image"
-            />
-
-            <button type="button" class="btn btn-block btn-outline-primary">
-              Primary
-            </button>
-          </div>
-          <div class="flex-boxes">
-            <img
-              class="img-thumbnail"
-              src="src/MarquesaNegro.png"
-              alt="Thumbnail image"
-            />
-
-            <button type="button" class="btn btn-block btn-outline-primary">
-              Primary
-            </button>
+          <div class="row">
+            <div class="card-deck">
+              <div class="col-lg-4 col-md-6 col-sm-12 mt-5">
+                <div class="card">
+                  <img
+                    src="src/how-many.png"
+                    class="card-img-top"
+                    alt="how-many"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">How Many</h5>
+                    <p class="card-text">
+                      ¿Sabes cuantos días has vivido, cuánta agua usaste,
+                      cuantos kilos de comida consumiste o cuantos años has
+                      dormido?
+                    </p>
+                    <p class="card-text">
+                      <button
+                        type="button"
+                        class="btn btn-block btn-outline-primary"
+                      >
+                        Hacer test!
+                      </button>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12 mt-5">
+                <div class="card">
+                  <img
+                    src="src/MarquesaNegro.png"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      This is a longer card with supporting text below as a
+                      natural lead-in to additional content. This content is a
+                      little bit longer.
+                    </p>
+                    <p class="card-text">
+                      <button
+                        type="button"
+                        class="btn btn-block btn-outline-primary"
+                      >
+                        Ir a sitio
+                      </button>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12 mt-5">
+                <div class="card">
+                  <img
+                    src="src/MarquesaNegro.png"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      This is a longer card with supporting text below as a
+                      natural lead-in to additional content. This content is a
+                      little bit longer.
+                    </p>
+                    <p class="card-text">
+                      <button
+                        type="button"
+                        class="btn btn-block btn-outline-primary"
+                      >
+                        Ir a sitio
+                      </button>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12 mt-5">
+                <div class="card">
+                  <img
+                    src="src/MarquesaNegro.png"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      This is a longer card with supporting text below as a
+                      natural lead-in to additional content. This content is a
+                      little bit longer.
+                    </p>
+                    <p class="card-text">
+                      <button
+                        type="button"
+                        class="btn btn-block btn-outline-primary"
+                      >
+                        Ir a sitio
+                      </button>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

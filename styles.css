@@ -1,57 +1,31 @@
+/*------ reset ------*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
 /*------ BG color ------*/
 body {
   background-color: rgba(0, 0, 0, 0.9);
   color: #000;
+  font-family: "chivo", serif;
 }
 
 /*------ Custom NavBar ------*/
-i {
-  margin-right: 10px;
-}
 
 .navbar-custom {
-  background-color: rgba(0, 0, 0, 0.9) !important;
-  color: #ffffff !important;
-}
-
-li {
-  margin-bottom: 1rem;
+  background-color: #000014 !important;
+  color: #ededed !important;
+  letter-spacing: 0.8px;
 }
 
 a {
-  color: #ffffff !important;
-  margin: 0 1rem;
   text-decoration: none !important;
+  color: #ededed;
 }
 
 li a:hover {
-  border-bottom: solid 2px #ff00b0;
-  padding: 0.3rem;
-  transition: 0.7s;
-}
-
-.navbar-collapse {
-  -ms-flex-preferred-size: 100%;
-  flex-basis: 100%;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
-  -ms-flex-align: center;
-  align-items: center;
-  transition: 0.7s;
-}
-
-.flex-boxes {
-  height: 280px;
-  width: 240px;
-  border: 1px solid black;
-  margin: 20px auto 20px auto;
-  border-radius: 5px;
-  background-color: #ffffff;
-  padding: 12px;
-}
-
-.flex-container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  border-bottom: solid 2px var(--primary);
+  transition: 0.1s;
+  color: #ffffff;
 }
