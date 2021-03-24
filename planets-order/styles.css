@@ -32,6 +32,12 @@ li a:hover {
   color: #ffffff;
 }
 
+/* box menu toglle */
+button:focus {
+  outline: 1px dotted;
+  outline: 1px solid var(--primary) !important;
+}
+
 .botones {
   display: flex;
   justify-content: center;
