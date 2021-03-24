@@ -1,11 +1,9 @@
-<!-- @format -->
-
-<!DOCTYPE html>
-<html lang="es">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="src/ES.png" sizes="16x16" type="image/png" />
+    <link rel="icon" href="src/favicon.png" sizes="16x16" type="image/png" />
+
     <!-- CSS only -->
     <link
       rel="stylesheet"
@@ -13,28 +11,14 @@
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
-
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-      crossorigin="anonymous"
-    ></script>
-
-    <!-- custum CSS,JS  -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chivo:wght@300&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
-    <script src="app.js"></script>
 
-    <title>Orden de los Planetas</title>
+    <title>JS exercises-beginner</title>
   </head>
 
   <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
@@ -49,23 +33,37 @@
     >
       <span class="navbar-toggler-icon"></span>
     </button>
-    <a class="navbar-brand navbar-logo" href="https://bitstandard.github.io/"
-      ><img src="src/BitStandard.png" width="200" height="40" alt=""
+    <a class="navbar-brand" href="https://edgarrincon.com/"
+      ><img src="src/edgar.jpg" alt="edgar logo"
     /></a>
 
     <div class="collapse navbar-collapse from-top" id="navbarTogglerDemo03">
-      <ul class="navbar-nav ml-auto mt-1 mb-2">
-        <li class="nav-item active">
-          <a
-            class="nav-link-custom"
-            href="https://bitstandard.github.io/javascript-exercises/"
-            >Home JS exercises</a
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item m-1 p-1">
+          <a href="https://bitstandard.github.io/javascript-exercises/">Home</a>
+        </li>
+        <li class="nav-item m-1 p-1">
+          <a href="https://bitstandard.github.io/javascript-exercises/"
+            >How Many</a
           >
         </li>
-        <li class="nav-item">
-          <a class="nav-link-custom" href="https://github.com/bitstandard/"
-            >GitHub</a
+        <li class="nav-item m-1 p-1">
+          <a href="https://bitstandard.github.io/javascript-exercises/"
+            >Planet Order</a
           >
+        </li>
+        <li class="nav-item m-1 p-1">
+          <a href="https://bitstandard.github.io/javascript-exercises/"
+            >Predict Number</a
+          >
+        </li>
+        <li class="nav-item m-1 p-1">
+          <a href="https://bitstandard.github.io/javascript-exercises/"
+            >Ramdon Text</a
+          >
+        </li>
+        <li class="nav-item m-1 p-1">
+          <a href="https://github.com/bitstandard/">GitHub</a>
         </li>
       </ul>
     </div>
@@ -73,18 +71,20 @@
 
   <body>
     <div class="container-fluid home">
-      <div>
+      <div class="pt-4">
         <h1 class="font-weight-light text-center">
           ¿Cual es el orden de los planetas en el sistema solar?
         </h1>
       </div>
 
       <div class="botones">
-        <button class="btn btn-success" onclick="displayRadioValue()">
-          Comprobar 🤠
+        <button class="btn btn-outline-success" onclick="displayRadioValue()">
+          Comprobar
         </button>
 
-        <button class="btn btn-danger" onclick="recargar()">Reiniciar</button>
+        <button class="btn btn-outline-danger" onclick="recargar()">
+          Reiniciar
+        </button>
       </div>
       <div class="bloque">
         <div class="preguntas font-weight-light text-center">
@@ -310,5 +310,17 @@
         </div>
       </div>
     </div>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <script src="app.js"></script>
   </body>
 </html>
